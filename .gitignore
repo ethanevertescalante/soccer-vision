@@ -1,0 +1,22 @@
+# Dataset images and generated data
+# (remove the data/raw/ line if you decide to commit resized raw images to the private repo)
+data/raw/
+data/crops/*
+data/splits/**/*
+data/processed/
+!**/.gitkeep
+
+# Trained models and run outputs
+models/*
+!models/.gitkeep
+
+# Environment variables
+.env
+
+# Python / IDE
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
